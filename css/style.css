@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Langar&display=swap");
+body {
+	margin: 0;
+	text-align: center;
+}
+h1{
+	font-family: 'Langar', cursive;
+	font-size: 2rem;
+	font-weight: normal;
+	color: white;
+	margin: 0;
+}
+h2{
+	font-family: 'Langar', cursive;
+	font-weight: normal;
+}
+h3 {
+	margin: 0;
+	font-size: x-large;
+	font-family: 'Langar', cursive;
+	font-weight: normal;
+}
+p{
+	font-family: "Montserrat", sans-serif;
+}
+nav {
+	text-align: center;
+	padding: 2rem;
+	border-bottom: 2px solid black;
+	border-bottom-right-radius: 40px;
+	margin-bottom: 3rem;
+	background-color: #0f0;
+}
+label{
+	font-size: 1.5rem;
+	font-family: 'Langar', cursive;
+}
+select {
+	display: block;
+	width: 62%;
+	padding: 0.3rem;
+	margin: 1rem auto;
+	border-radius: 5px;
+	font-family: "Montserrat", sans-serif;
+}
+textarea {
+	width: 60%;
+	text-align: center;
+	resize: none;
+	padding: 0.5rem;
+	margin: 1rem 0;
+	font-family: "Montserrat", sans-serif;
+}
+.btn {
+	width: 62%;
+	padding: 0.5rem;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	background-color: #0f0;
+	font-family: 'Langar', cursive;
+	font-size: 1.2rem;
+	color: white;
+}
+.btn:hover{
+	border-color: #0f0;
+	background-color: white;
+	color: #0f0;
+}
+.about {
+	width: 65%;
+	border: 4px double #0f0;
+	padding: 1.5rem;
+	margin: 2rem auto 3rem;
+	text-align: center;
+}
+footer {
+	text-align: center;
+	margin: 0;
+	border-top: 2px solid black;
+	border-top-left-radius: 40px;
+	padding: 1.3rem;
+	background-color: #0f0;
+	color: white;
+}
+footer p {
+	margin: 0;
+	margin-top: 1rem;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+a {
+	margin: 0 2.2rem;
+	text-decoration: none;
+	font-family: 'Langar', cursive;
+	font-size: 1.2rem;
+	color: white;
+}
+a:hover{
+	color: rgb(0, 140, 0);
+}
