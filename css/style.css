@@ -1,26 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Langar&display=swap");
+
+:root {
+	--main-color: rgb(0, 183, 255);
+	--main-color-hover: rgb(0, 116, 161);
+}
 body {
 	margin: 0;
 	text-align: center;
 }
-h1{
-	font-family: 'Langar', cursive;
+h1 {
+	font-family: "Langar", cursive;
 	font-size: 2rem;
 	font-weight: normal;
 	color: white;
 	margin: 0;
 }
-h2{
-	font-family: 'Langar', cursive;
+h2 {
+	font-family: "Langar", cursive;
 	font-weight: normal;
 }
 h3 {
 	margin: 0;
 	font-size: x-large;
-	font-family: 'Langar', cursive;
+	font-family: "Langar", cursive;
 	font-weight: normal;
 }
-p{
+p {
 	font-family: "Montserrat", sans-serif;
 }
 nav {
@@ -29,19 +34,23 @@ nav {
 	border-bottom: 2px solid black;
 	border-bottom-right-radius: 40px;
 	margin-bottom: 3rem;
-	background-color: #0f0;
+	background-color: var(--main-color);
 }
-label{
+label {
 	font-size: 1.5rem;
-	font-family: 'Langar', cursive;
+	font-family: "Langar", cursive;
 }
 select {
 	display: block;
 	width: 62%;
 	padding: 0.3rem;
 	margin: 1rem auto;
+	border: 0.5px solid black;
 	border-radius: 5px;
 	font-family: "Montserrat", sans-serif;
+	font-size: 1rem;
+	color: white;
+	background-color: var(--main-color);
 }
 textarea {
 	width: 60%;
@@ -54,22 +63,22 @@ textarea {
 .btn {
 	width: 62%;
 	padding: 0.5rem;
-	border: 2px solid black;
+	border: 2px solid white;
 	border-radius: 5px;
 	display: inline-block;
-	background-color: #0f0;
-	font-family: 'Langar', cursive;
+	background-color: var(--main-color);
+	font-family: "Langar", cursive;
 	font-size: 1.2rem;
 	color: white;
 }
-.btn:hover{
-	border-color: #0f0;
+.btn:hover {
+	border: 2px solid var(--main-color);
 	background-color: white;
-	color: #0f0;
+	color: var(--main-color);
 }
 .about {
 	width: 65%;
-	border: 4px double #0f0;
+	border: 4px double var(--main-color);
 	padding: 1.5rem;
 	margin: 2rem auto 3rem;
 	text-align: center;
@@ -80,7 +89,7 @@ footer {
 	border-top: 2px solid black;
 	border-top-left-radius: 40px;
 	padding: 1.3rem;
-	background-color: #0f0;
+	background-color: var(--main-color);
 	color: white;
 }
 footer p {
@@ -92,10 +101,10 @@ footer p {
 a {
 	margin: 0 2.2rem;
 	text-decoration: none;
-	font-family: 'Langar', cursive;
+	font-family: "Langar", cursive;
 	font-size: 1.2rem;
 	color: white;
 }
-a:hover{
-	color: rgb(0, 140, 0);
+a:hover {
+	color: var(--main-color-hover);
 }
