@@ -3,52 +3,50 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
 		<title>Fun Translation App</title>
 	</head>
 	<body>
 		<nav>
 			<h1>Let's Translate Something</h1>
 		</nav>
-		<div class="container">
-			<label for="api">Choose language to Translate</label>
+			<label for="api">Choose Language to Translate:</label>
 			<select name="api" id="trns-api">
 				<option value="pirates">Pirates</option>
 				<option value="groot">Groot</option>
 				<option value="navi">Navi</option>
 				<option value="yoda">Yoda</option>
 			</select>
-			<br />
 			<textarea
 				name="text"
 				id="usr-input"
 				cols="30"
-				rows="10"
+				rows="7"
 				placeholder="Enter your text to convert it"
 			></textarea>
 			<br />
-			<button id="btn" type="submit">Translate</button>
+			<button class="btn" type="submit">Translate</button>
 			<h2>Your Translated Text:</h2>
 			<textarea
 				name="output"
 				id="result"
 				cols="30"
-				rows="10"
+				rows="7"
 				placeholder="Your translated text goes here"
 			></textarea>
-		</div>
-		<div class="about">
-			<p>
-				This Web App supports translating English to many Fun languages so just
-				translate your text, share with your friends and confuse them.
-			</p>
-		</div>
+			<div class="about">
+				<h3>About</h3>
+				<p>
+					This Web App supports translating English to many Fun languages so
+					just translate your text, share with your friends and confuse them.
+				</p>
+				<a href="" class="btn">Source Code</a>
+			</div>
 		<footer>
-			<a href="https://www.instagram.com/i_am___unknown__" target="_blank"
-				>Instagram</a
-			>
+			<a href="https://www.instagram.com/i_am___unknown__" target="_blank">Instagram</a>
 			<a href="https://www.github.com/DeeshanSharma" target="_blank">GitHub</a>
 			<a href="https://twitter.com/DeeshanSharma_" target="_blank">Twitter</a>
-			<p>Made with 💝</p>
+			<p>Made with 💜</p>
 			<p>©2020 Deeshan Sharma</p>
 		</footer>
 	</body>
